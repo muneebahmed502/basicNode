@@ -51,11 +51,8 @@ router.put('/logout', verifyToken, async (req, res) => {
 
 export default router;
 
-/*fetch('http://localhost:3001/users/register',{
-     method:"POST",
-     headers:{
-         'Content-Type': 'application/json'
-     },
+/*fetch('http://localhost:3001/users/register'
+     
      body:JSON.stringify({
         fullname:'muneeb',email:'asqadri@gmail.com',password:'123'
      })
